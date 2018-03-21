@@ -10,12 +10,11 @@ body {
 ul {
     margin: 0;
     padding: 0;
-    float: right;
+
 }
 
 li {
     list-style: none;
-    float: left;
 }
 
 .header {
@@ -50,4 +49,49 @@ li {
     content: "";
     display: block;
     clear: both;
+}
+
+.image_area {
+    width: 100%;
+}
+
+.side_menu {
+    width: 300px;
+    float: left;
+}
+
+.wrapper {
+    margin-top: 10px;
+}
+
+.side_menu li {
+    background-color: #F5B4B3;
+    height: 6rem;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+.side_menu li a {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 2rem;
+}
+
+.side_menu li:hover{
+    opacity: 0.6;
+}
+
+
+.banner img {
+    width: 100%;
+}
+
+.banner {
+    margin-top: 20px;
+}
+
+.banner:hover{
+    opacity: 0.6;
 }
