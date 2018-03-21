@@ -6,7 +6,7 @@
 }
 
 .contact th{
-  width: 150px;
+  width: 148px;
 }
 
 .contact td{
@@ -20,7 +20,7 @@
 
 
 .contact input[type="text"],input[type="email"]{
-   width: 480px;
+   width: 474px;
 }
 
 .contact tr:last-child th {
